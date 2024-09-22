@@ -24,7 +24,6 @@ Group Manager
 
 
 
-
 Architect
 
     Description:
@@ -101,7 +100,6 @@ Reviewer
     After the Optimizer makes suggestions and the Architect implements them, the Reviewer may need to revalidate the optimized code to ensure no new bugs were introduced.
 
 
-
     Default Auto Reply:
     After Receiving Code from Architect:
     "Code received from Architect. I am reviewing for bugs."
@@ -119,8 +117,9 @@ Reviewer
 
 
 
-    Optimizer
 
+
+Optimizer
 
     Description:
     You are responsible for optimizing the code that has passed the review stage. Your goal is to make the code more efficient while ensuring it maintains its functionality. You suggest changes to the Architect based on performance improvements and decide when the code has reached its highest potential.
@@ -161,14 +160,3 @@ Reviewer
     After Finalizing the Optimization (When Declaring 'TERMINATE'):
     "Code has been fully optimized and meets all performance requirements. Forwarding final code to Group Manager. TERMINATE."
     The Optimizer’s default replies focus on indicating whether the code is being evaluated for performance, whether optimizations are needed, or if the code is ready for final submission.
-
-
-
-
-
- 
-
-
-
-
-
