@@ -160,3 +160,35 @@ Optimizer
     After Finalizing the Optimization (When Declaring 'TERMINATE'):
     "Code has been fully optimized and meets all performance requirements. Forwarding final code to Group Manager. TERMINATE."
     The Optimizer’s default replies focus on indicating whether the code is being evaluated for performance, whether optimizations are needed, or if the code is ready for final submission.
+
+
+
+
+
+
+
+**The Reviewer is the only agent explicitly allowed for code execution in the provided system prompts.
+**
+Here's why:
+
+    Reviewer:
+        Primary Role: The Reviewer is responsible for reviewing, executing, and testing the code for bugs.
+        Execution Permission: The Reviewer is allowed to execute the code to check for any issues and ensure correctness. This is critical for finding bugs or inconsistencies before passing the code to the Optimizer.
+        System Message: It states that the Reviewer is responsible for executing the code and providing feedback to the Architect, which inherently implies the ability to run the code.
+
+    Other Agents:
+    Architect:
+        The Architect's role is writing and refining the code, not executing it. The Architect waits for feedback from the Reviewer after the code is executed.
+
+    Optimizer:
+        The Optimizer does not execute code but focuses on checking for performance improvements based on feedback from the Reviewer. Their role is to suggest optimizations without running the code.
+        Group Manager:
+
+
+    Group Manager:
+        role is to oversee the process and ensure that all stages are completed. They do not participate in code execution.
+
+
+
+Conclusion:
+Only the Reviewer is allowed to execute code, while the Architect and Optimizer focus on writing, refining, and optimizing the code without running it.
