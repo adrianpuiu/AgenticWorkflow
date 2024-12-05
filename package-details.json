@@ -12,19 +12,19 @@
         "version": "2.0.0"
       }
     ],
-    "apiKey": "Woodroof387*!"
+    "apiKey": "ghp_[REDACTED]"
   },
   "exportDetails": {
-    "uuid": "mock-uuid-mf49nazql",
+    "uuid": "mock-uuid-58rwyr800",
     "fileName": "test",
     "exportType": "package",
     "name": "test",
     "description": "test",
     "status": "IN_PROGRESS",
     "uuids": [
-      "mock-uuid-1"
+      "mock-uuid-2"
     ],
-    "apiKey": "Woodroof387*!"
+    "apiKey": "ghp_[REDACTED]"
   },
   "inspectionDetails": {
     "applicationName": "Sample App",
