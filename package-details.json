@@ -1,0 +1,42 @@
+{
+  "packageDetails": {
+    "packages": [
+      {
+        "uuid": "mock-uuid-1",
+        "name": "Sample Package 1",
+        "version": "1.0.0"
+      },
+      {
+        "uuid": "mock-uuid-2",
+        "name": "Sample Package 2",
+        "version": "2.0.0"
+      }
+    ],
+    "apiKey": "Woodroof387*!"
+  },
+  "exportDetails": {
+    "uuid": "mock-uuid-mf49nazql",
+    "fileName": "test",
+    "exportType": "package",
+    "name": "test",
+    "description": "test",
+    "status": "IN_PROGRESS",
+    "uuids": [
+      "mock-uuid-1"
+    ],
+    "apiKey": "Woodroof387*!"
+  },
+  "inspectionDetails": {
+    "applicationName": "Sample App",
+    "version": "1.0.0",
+    "components": [
+      "Component 1",
+      "Component 2"
+    ],
+    "status": "Completed",
+    "results": [
+      "All components validated",
+      "No issues found"
+    ]
+  }
+}
