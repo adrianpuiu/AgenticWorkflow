@@ -15,11 +15,11 @@
     "apiKey": "ghp_[REDACTED]"
   },
   "exportDetails": {
-    "uuid": "mock-uuid-l4ype2lcf",
+    "uuid": "mock-uuid-e6ai6xhrj",
     "fileName": "test",
     "exportType": "application",
-    "name": "test",
-    "description": "test",
+    "name": "architect",
+    "description": "jkhnj",
     "status": "IN_PROGRESS",
     "uuids": [
       "mock-uuid-2"
