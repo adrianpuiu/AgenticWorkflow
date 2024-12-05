@@ -15,9 +15,9 @@
     "apiKey": "ghp_[REDACTED]"
   },
   "exportDetails": {
-    "uuid": "mock-uuid-58rwyr800",
+    "uuid": "mock-uuid-l4ype2lcf",
     "fileName": "test",
-    "exportType": "package",
+    "exportType": "application",
     "name": "test",
     "description": "test",
     "status": "IN_PROGRESS",
